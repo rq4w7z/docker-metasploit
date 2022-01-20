@@ -1,6 +1,7 @@
-variables:
-    PUBLIC_IMAGE: 'strm/metasploit'
-
+---
 include:
   - project: 'core/gitlabci-templates'
     file: 'docker.yml'
+
+variables:
+    PUBLIC_IMAGE: 'strm/metasploit'
